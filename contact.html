@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+     
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+       <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    
+</head>       
+<body>
+  <div class="wrapper">
+    <nav class="navbar navbar-dark bg-inverse">
+    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+    &#9776;</button>
+  <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+    <a class="brand" href="#">Michael J. LaDue</a>
+    <ul class="nav navbar-nav">
+      <li class="nav-item active">
+         <a class="nav-link" href="index.html">Home</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="projects.html">Projects</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="contact.html">Contact</a>
+       </li>
+      </ul>
+     </div>
+    </nav>
+     
+    
+
+    <h1>Contact Me</h1>
+     <br>
+      <section class="container">
+       <p class="desc">If you're interested in me for your job, please fill out this form.</p>
+        <form>
+          <fieldset class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Full Name" required>
+          </fieldset>
+          <fieldset class="form-group">
+            <label for="em">Email:</label>
+            <input type="email" class="form-control" id="em" name="em" placeholder="Address" required>
+          </fieldset>
+          <fieldset class="form-group">
+            <label for="em">Phone:</label>
+            <input type="Phone" class="form-control" id="em" name="em" placeholder="Phone" >
+          </fieldset>
+          <fieldset class="form-group">
+            <label for="msg">Message:</label>
+            <textarea class="form-control" id="msg" name="msg" rows="3" placeholder="More about yourself (Optional)"></textarea>
+          </fieldset>
+            <button type="submit" class="btn btn-primary" onclick="show_alert()">Send Request <i class="fa fa-hand-o-right"></i></button>
+        </form>
+        </section>
+    </div>
+
+    
+     <script src="bower_components/bootstrap/jquery/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/js/main.js"></script> <!-- your js will go here -->
+    </body>
+    </html>

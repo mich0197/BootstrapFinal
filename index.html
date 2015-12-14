@@ -1,29 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags always come first -->
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-    <title>Demo</title>
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="/css/main.css" /> <!-- your css will go here -->
-  </head>
-  <body>
-    <!-- your webpage content will go here -->
-
-
-
-    <!-- jQuery first, then Bootstrap JS. -->
-    <script src="bower_components/bootstrap/jquery/jquery.min.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="/js/main.js"></script> <!-- your js will go here -->
-
-
-
-  </body>
+    <title>Bootstrap</title>
+       
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+       <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    
+    
+</head>       
+<body>
+  <div class="wrapper">
+    <nav class="navbar navbar-dark bg-inverse">
+    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+    &#9776;</button>
+  <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+    <a class="brand" href="#">Michael J. LaDue</a>
+    <ul class="nav navbar-nav">
+      <li class="nav-item active">
+         <a class="nav-link" href="index.html">Home</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="projects.html">Projects</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="contact.html">Contact</a>
+       </li>
+      </ul>
+     </div>
+    </nav>
+    
+    <h1>Main Page</h1>
+    <p class="desc">Welcome</p>
+    <div class="profilePicDiv">
+				<img src="img/profilepic.jpg" class="img-square" width="100" height="100" alt="profile photo" title="profile photo" />
+			</div>
+     <br>
+        <section class="container">
+          <div class="row">
+            <div class="col-md-6"><h2>About Me <i class="fa fa-beer"></i>
+</h2><p class="profile-text">Hello I am Michael LaDue. I am the web developer you are looking for.  I have done many of projects in the past. If you like what you see contact me.</p></div>
+              <div class="col-md-6"><h2>Skills <i class="fa fa-thumbs-up"></i>
+</h2><ul class="profile-text">
+        <li>HTML/CSS including experience with SASS and Bootstrap</li>
+        <li>Working with SQL databases using queries</li>
+        <li>Using Javascript to develop websites</li>
+        </ul></div>
+          </div>
+       </section>
+  </div>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script> 
+</body>
 </html>
+
